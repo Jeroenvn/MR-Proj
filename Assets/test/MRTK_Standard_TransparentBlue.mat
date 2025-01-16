@@ -23,7 +23,7 @@ Material:
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3058
+  m_CustomRenderQueue: 3001
   stringTagMap:
     DisableBatching: False
     RenderType: Fade
@@ -168,7 +168,7 @@ Material:
     - _Reflections: 0
     - _Refraction: 0
     - _RefractiveIndex: 1.1
-    - _RenderQueueOverride: 3058
+    - _RenderQueueOverride: 3001
     - _RimLight: 0
     - _RimPower: 0.25
     - _RoundCornerMargin: 0
