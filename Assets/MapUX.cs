@@ -22,8 +22,9 @@ public class MapUX : MonoBehaviour
 
         buildingUI.SetActive(true);
         buildingShown = building;
-        header.text = building.name;
-        body.text = "A building";
+        BuildingInfo buildingInfo = building.GetComponent<BuildingInfoManager>().BuildingInfo;
+        header.text = buildingInfo.Name;
+        body.text = "Date built: " + buildingInfo.BuildDate + "\nDescription: " + buildingInfo.AdditionalInformation;
 
         if (followBuildingCoroutine == null)
         {
