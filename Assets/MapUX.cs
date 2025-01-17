@@ -14,7 +14,6 @@ public class MapUX : MonoBehaviour
 
     public void OnBuildingSelect(GameObject building)
     {
-        Debug.Log(building.name);
         if (building == buildingShown)
         {
             CloseInfo();
@@ -24,7 +23,7 @@ public class MapUX : MonoBehaviour
         buildingUI.SetActive(true);
         buildingShown = building;
         header.text = building.name;
-        body.text = "test";
+        body.text = "A building";
 
         if (followBuildingCoroutine == null)
         {
@@ -35,6 +34,7 @@ public class MapUX : MonoBehaviour
     public void CloseInfo()
     {
         StopCoroutine(followBuildingCoroutine);
+        followBuildingCoroutine = null;
         buildingShown = null;
         buildingUI.SetActive(false);
     }
