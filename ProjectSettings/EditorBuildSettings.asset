@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StarkMapScene.unity
+    guid: 2a8853c9681cbf440b604e2446b8cdf4
   m_configObjects:
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: b01e65b8731454c4e9d51bd78dc65145, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b488a3a9e32986e479ca32e4f212689d, type: 2}
