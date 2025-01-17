@@ -280,7 +280,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 39732002}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -331,7 +343,7 @@ MonoBehaviour:
   <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 39732011}
   allowedManipulations: 7
   allowedInteractionTypes: 1
   rigidbodyMovementType: 0
@@ -374,6 +386,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!4 &39732011 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3160688414135791390, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+  m_PrefabInstance: {fileID: 1550717132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &39732014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39732002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9830b58c6292d464cad73b2da54e1508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUX: {fileID: 1550717138}
 --- !u!1 &54813075 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6831469579522967210, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
@@ -532,7 +562,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 54813075}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -583,7 +625,7 @@ MonoBehaviour:
   <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 54813084}
   allowedManipulations: 7
   allowedInteractionTypes: 1
   rigidbodyMovementType: 0
@@ -626,6 +668,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!4 &54813084 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3388948957540783446, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+  m_PrefabInstance: {fileID: 1550717132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &54813087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54813075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9830b58c6292d464cad73b2da54e1508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUX: {fileID: 1550717138}
 --- !u!1 &80770355
 GameObject:
   m_ObjectHideFlags: 0
@@ -720,6 +780,375 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &198680968
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1445932826319549419, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445932826319549425, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_Size.x
+      value: 106
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445932826319549425, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_Size.y
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445932826319549427, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445932826319549427, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445932826319549427, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445932826319549428, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445932826319549428, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445932826319549428, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 106
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445932826319549428, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445932826319549428, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445932826319549428, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445932827003000033, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445932827003000033, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445932827003000033, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 70.66667
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445932827003000033, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445932827003000033, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 35.333336
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445932827003000033, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445932827003000036, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_Size.x
+      value: 70.66667
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445932827003000036, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_Size.y
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445932827003000062, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3025820521848850410, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3025820521848850410, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3025820521848850410, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 50.66667
+      objectReference: {fileID: 0}
+    - target: {fileID: 3025820521848850410, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 31.999989
+      objectReference: {fileID: 0}
+    - target: {fileID: 3025820521848850410, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 35.333336
+      objectReference: {fileID: 0}
+    - target: {fileID: 3025820521848850410, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -15.999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 3025820522231243007, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3025820522231243007, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3025820522231243007, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 86
+      objectReference: {fileID: 0}
+    - target: {fileID: 3025820522231243007, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 31.999989
+      objectReference: {fileID: 0}
+    - target: {fileID: 3025820522231243007, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: 3025820522231243007, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -15.999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464395001938839902, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464395001938839902, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464395001938839902, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464395001938839902, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.212
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464395001938839902, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.638
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464395001938839902, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.004
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464395001938839902, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464395001938839902, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464395001938839902, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464395001938839902, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464395001938839902, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464395001938839902, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464395001938839902, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6207203748110200270, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6207203748110200270, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6207203748110200270, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6207203748110200270, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 31.999989
+      objectReference: {fileID: 0}
+    - target: {fileID: 6207203748110200270, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 106
+      objectReference: {fileID: 0}
+    - target: {fileID: 6207203748110200270, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -15.999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930810733556124559, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_Name
+      value: CanvasDialog
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930810733556124559, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930810734943986775, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930810734943986775, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930810734943986775, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 212
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930810734943986775, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 76.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930810734943986775, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930810734943986775, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -71.850006
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930810734955394187, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930810734955394187, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930810734955394187, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 212
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930810734955394187, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930810734955394187, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930810734955394187, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -126.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930810734963254060, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930810734963254060, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930810734963254060, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 212
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930810734963254060, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 29.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930810734963254060, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930810734963254060, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -18.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220921723076383083, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 146.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766819771636563648, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_Size.x
+      value: 212
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766819771636563648, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_Size.y
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766819771636563650, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766819771636563650, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766819771636563650, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1550717138}
+    - target: {fileID: 7766819771636563650, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766819771636563650, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CloseInfo
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766819771636563650, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MapUX, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766819771636563650, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766819771636563653, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766819771636563653, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766819771636563653, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 212
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766819771636563653, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766819771636563653, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 106
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766819771636563653, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766819771636563674, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
 --- !u!1 &217722242 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2670578340804161345, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
@@ -878,7 +1307,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 217722242}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -929,7 +1370,7 @@ MonoBehaviour:
   <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 217722251}
   allowedManipulations: 7
   allowedInteractionTypes: 1
   rigidbodyMovementType: 0
@@ -972,6 +1413,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!4 &217722251 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7847759116132084923, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+  m_PrefabInstance: {fileID: 1550717132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &217722254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217722242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9830b58c6292d464cad73b2da54e1508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUX: {fileID: 1550717138}
 --- !u!1 &336870608 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9111354630709517067, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
@@ -1135,7 +1594,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 336870608}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -1229,6 +1700,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!114 &336870619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336870608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9830b58c6292d464cad73b2da54e1508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUX: {fileID: 1550717138}
 --- !u!1 &348636807 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2823813991051744445, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
@@ -1387,7 +1871,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 348636807}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -1438,7 +1934,7 @@ MonoBehaviour:
   <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 348636816}
   allowedManipulations: 7
   allowedInteractionTypes: 1
   rigidbodyMovementType: 0
@@ -1481,6 +1977,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!4 &348636816 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8773703033401108903, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+  m_PrefabInstance: {fileID: 1550717132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &348636819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348636807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9830b58c6292d464cad73b2da54e1508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUX: {fileID: 1550717138}
 --- !u!1001 &406554833
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1696,7 +2210,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 461347808}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -1747,7 +2273,7 @@ MonoBehaviour:
   <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 461347817}
   allowedManipulations: 7
   allowedInteractionTypes: 1
   rigidbodyMovementType: 0
@@ -1790,6 +2316,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!4 &461347817 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -86290757048100535, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+  m_PrefabInstance: {fileID: 1550717132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &461347820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461347808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9830b58c6292d464cad73b2da54e1508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUX: {fileID: 1550717138}
 --- !u!1 &544951964 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5193894595230668787, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
@@ -1948,7 +2492,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 544951964}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -1999,7 +2555,7 @@ MonoBehaviour:
   <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 544951973}
   allowedManipulations: 7
   allowedInteractionTypes: 1
   rigidbodyMovementType: 0
@@ -2042,6 +2598,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!4 &544951973 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8570036038186079404, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+  m_PrefabInstance: {fileID: 1550717132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &544951976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544951964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9830b58c6292d464cad73b2da54e1508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUX: {fileID: 1550717138}
 --- !u!1001 &592295687
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2257,7 +2831,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 622157996}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -2308,7 +2894,7 @@ MonoBehaviour:
   <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 622158005}
   allowedManipulations: 7
   allowedInteractionTypes: 1
   rigidbodyMovementType: 0
@@ -2351,6 +2937,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!4 &622158005 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -5045847304032817182, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+  m_PrefabInstance: {fileID: 1550717132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &622158008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622157996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9830b58c6292d464cad73b2da54e1508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUX: {fileID: 1550717138}
 --- !u!1 &713703960 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6501824478672358376, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
@@ -2509,7 +3113,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 713703960}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -2560,7 +3176,7 @@ MonoBehaviour:
   <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 713703969}
   allowedManipulations: 7
   allowedInteractionTypes: 1
   rigidbodyMovementType: 0
@@ -2603,6 +3219,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!4 &713703969 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -290925717316747192, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+  m_PrefabInstance: {fileID: 1550717132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &713703972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713703960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9830b58c6292d464cad73b2da54e1508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUX: {fileID: 1550717138}
 --- !u!1 &743765005 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1505381223644923207, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
@@ -2766,7 +3400,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 743765005}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -2860,6 +3506,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!114 &743765014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743765005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9830b58c6292d464cad73b2da54e1508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUX: {fileID: 1550717138}
 --- !u!1 &786782783 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3479006076297335366, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
@@ -3018,7 +3677,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 786782783}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -3069,7 +3740,7 @@ MonoBehaviour:
   <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 786782792}
   allowedManipulations: 7
   allowedInteractionTypes: 1
   rigidbodyMovementType: 0
@@ -3112,6 +3783,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!4 &786782792 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5135852482992280023, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+  m_PrefabInstance: {fileID: 1550717132}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &906178455 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5441917301688982549, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
@@ -3270,7 +3946,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 906178455}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -3321,7 +4009,7 @@ MonoBehaviour:
   <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 906178464}
   allowedManipulations: 7
   allowedInteractionTypes: 1
   rigidbodyMovementType: 0
@@ -3364,6 +4052,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!4 &906178464 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7556580439946541864, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+  m_PrefabInstance: {fileID: 1550717132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &906178467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906178455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9830b58c6292d464cad73b2da54e1508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUX: {fileID: 1550717138}
 --- !u!1 &991373797 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8729310326544582055, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
@@ -3522,7 +4228,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 991373797}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -3573,7 +4291,7 @@ MonoBehaviour:
   <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 991373806}
   allowedManipulations: 7
   allowedInteractionTypes: 1
   rigidbodyMovementType: 0
@@ -3616,6 +4334,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!4 &991373806 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6567268335375461315, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+  m_PrefabInstance: {fileID: 1550717132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &991373809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991373797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9830b58c6292d464cad73b2da54e1508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUX: {fileID: 1550717138}
 --- !u!1 &993483045 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5952599227935929541, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
@@ -3774,7 +4510,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 993483045}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -3825,7 +4573,7 @@ MonoBehaviour:
   <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 993483054}
   allowedManipulations: 7
   allowedInteractionTypes: 1
   rigidbodyMovementType: 0
@@ -3868,6 +4616,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!4 &993483054 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -9132541476647900897, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+  m_PrefabInstance: {fileID: 1550717132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &993483057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993483045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9830b58c6292d464cad73b2da54e1508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUX: {fileID: 1550717138}
 --- !u!1 &1145226115 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8151650579058581851, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
@@ -4026,7 +4792,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1145226115}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -4077,7 +4855,7 @@ MonoBehaviour:
   <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 1145226124}
   allowedManipulations: 7
   allowedInteractionTypes: 1
   rigidbodyMovementType: 0
@@ -4120,6 +4898,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!4 &1145226124 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -5506631016329294359, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+  m_PrefabInstance: {fileID: 1550717132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1145226127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145226115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9830b58c6292d464cad73b2da54e1508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUX: {fileID: 1550717138}
 --- !u!1 &1216629025 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3986492904172668847, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
@@ -4283,7 +5079,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1216629025}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -4377,6 +5185,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!114 &1216629036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216629025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9830b58c6292d464cad73b2da54e1508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUX: {fileID: 1550717138}
+--- !u!114 &1232076422 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6930810734963254062, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+  m_PrefabInstance: {fileID: 198680968}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1453416427 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1516447544182734743, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
@@ -4535,7 +5367,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1453416427}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -4586,7 +5430,7 @@ MonoBehaviour:
   <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 1453416436}
   allowedManipulations: 7
   allowedInteractionTypes: 1
   rigidbodyMovementType: 0
@@ -4629,6 +5473,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!4 &1453416436 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8030274034680783497, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+  m_PrefabInstance: {fileID: 1550717132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1453416439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453416427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9830b58c6292d464cad73b2da54e1508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUX: {fileID: 1550717138}
 --- !u!1 &1486445845 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2827607706488516471, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
@@ -4787,7 +5649,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1486445845}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -4838,7 +5712,7 @@ MonoBehaviour:
   <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 1486445854}
   allowedManipulations: 7
   allowedInteractionTypes: 1
   rigidbodyMovementType: 0
@@ -4881,6 +5755,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!4 &1486445854 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8433355404173613305, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+  m_PrefabInstance: {fileID: 1550717132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1486445857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486445845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9830b58c6292d464cad73b2da54e1508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUX: {fileID: 1550717138}
 --- !u!1001 &1550717132
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4899,7 +5791,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.021
+      value: 1.162
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4946,6 +5838,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1550717137}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1550717138}
     - targetCorrespondingSourceObject: {fileID: 1505381223644923207, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 743765009}
@@ -4955,6 +5850,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1505381223644923207, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 743765010}
+    - targetCorrespondingSourceObject: {fileID: 1505381223644923207, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 743765014}
     - targetCorrespondingSourceObject: {fileID: 1516447544182734743, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1453416433}
@@ -4964,6 +5862,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1516447544182734743, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1453416434}
+    - targetCorrespondingSourceObject: {fileID: 1516447544182734743, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1453416439}
     - targetCorrespondingSourceObject: {fileID: -8151650579058581851, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1145226121}
@@ -4973,6 +5874,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8151650579058581851, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1145226122}
+    - targetCorrespondingSourceObject: {fileID: -8151650579058581851, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1145226127}
     - targetCorrespondingSourceObject: {fileID: 3479006076297335366, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 786782789}
@@ -4991,6 +5895,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -5193894595230668787, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 544951971}
+    - targetCorrespondingSourceObject: {fileID: -5193894595230668787, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 544951976}
     - targetCorrespondingSourceObject: {fileID: 2827607706488516471, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1486445851}
@@ -5000,6 +5907,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2827607706488516471, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1486445852}
+    - targetCorrespondingSourceObject: {fileID: 2827607706488516471, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1486445857}
     - targetCorrespondingSourceObject: {fileID: 3986492904172668847, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1216629031}
@@ -5009,6 +5919,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3986492904172668847, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1216629032}
+    - targetCorrespondingSourceObject: {fileID: 3986492904172668847, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1216629036}
     - targetCorrespondingSourceObject: {fileID: -3844501529157174244, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 622158002}
@@ -5018,6 +5931,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -3844501529157174244, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 622158003}
+    - targetCorrespondingSourceObject: {fileID: -3844501529157174244, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 622158008}
     - targetCorrespondingSourceObject: {fileID: -6501824478672358376, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 713703966}
@@ -5027,6 +5943,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -6501824478672358376, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 713703967}
+    - targetCorrespondingSourceObject: {fileID: -6501824478672358376, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 713703972}
     - targetCorrespondingSourceObject: {fileID: -1629866958612345935, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1972154426}
@@ -5036,6 +5955,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -1629866958612345935, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1972154427}
+    - targetCorrespondingSourceObject: {fileID: -1629866958612345935, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1972154432}
     - targetCorrespondingSourceObject: {fileID: 5810399674571786152, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1962091012}
@@ -5045,6 +5967,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5810399674571786152, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1962091013}
+    - targetCorrespondingSourceObject: {fileID: 5810399674571786152, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1962091018}
     - targetCorrespondingSourceObject: {fileID: -5609308756044941887, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1588209496}
@@ -5054,6 +5979,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -5609308756044941887, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1588209497}
+    - targetCorrespondingSourceObject: {fileID: -5609308756044941887, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1588209502}
     - targetCorrespondingSourceObject: {fileID: 2538252195932746528, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1550869822}
@@ -5063,6 +5991,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2538252195932746528, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1550869823}
+    - targetCorrespondingSourceObject: {fileID: 2538252195932746528, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1550869828}
     - targetCorrespondingSourceObject: {fileID: -5952599227935929541, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 993483051}
@@ -5072,6 +6003,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -5952599227935929541, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 993483052}
+    - targetCorrespondingSourceObject: {fileID: -5952599227935929541, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 993483057}
     - targetCorrespondingSourceObject: {fileID: -2823813991051744445, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 348636813}
@@ -5081,6 +6015,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2823813991051744445, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 348636814}
+    - targetCorrespondingSourceObject: {fileID: -2823813991051744445, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 348636819}
     - targetCorrespondingSourceObject: {fileID: 8729310326544582055, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 991373803}
@@ -5090,6 +6027,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8729310326544582055, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 991373804}
+    - targetCorrespondingSourceObject: {fileID: 8729310326544582055, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 991373809}
     - targetCorrespondingSourceObject: {fileID: -4895195609628165722, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 461347814}
@@ -5099,6 +6039,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -4895195609628165722, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 461347815}
+    - targetCorrespondingSourceObject: {fileID: -4895195609628165722, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 461347820}
     - targetCorrespondingSourceObject: {fileID: 6044257058256604125, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1808306926}
@@ -5108,6 +6051,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6044257058256604125, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1808306927}
+    - targetCorrespondingSourceObject: {fileID: 6044257058256604125, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1808306932}
     - targetCorrespondingSourceObject: {fileID: 5441917301688982549, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 906178461}
@@ -5117,6 +6063,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5441917301688982549, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 906178462}
+    - targetCorrespondingSourceObject: {fileID: 5441917301688982549, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 906178467}
     - targetCorrespondingSourceObject: {fileID: 6831469579522967210, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 54813081}
@@ -5126,6 +6075,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6831469579522967210, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 54813082}
+    - targetCorrespondingSourceObject: {fileID: 6831469579522967210, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 54813087}
     - targetCorrespondingSourceObject: {fileID: 2754464655746658638, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 39732008}
@@ -5135,6 +6087,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2754464655746658638, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 39732009}
+    - targetCorrespondingSourceObject: {fileID: 2754464655746658638, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 39732014}
     - targetCorrespondingSourceObject: {fileID: 2670578340804161345, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 217722248}
@@ -5144,6 +6099,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2670578340804161345, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 217722249}
+    - targetCorrespondingSourceObject: {fileID: 2670578340804161345, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 217722254}
     - targetCorrespondingSourceObject: {fileID: 9111354630709517067, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 336870614}
@@ -5153,6 +6111,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9111354630709517067, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
       insertIndex: -1
       addedObject: {fileID: 336870615}
+    - targetCorrespondingSourceObject: {fileID: 9111354630709517067, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 336870619}
   m_SourcePrefab: {fileID: 100100000, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
 --- !u!1 &1550717133 stripped
 GameObject:
@@ -5411,6 +6372,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.5007048, y: 0.024954455, z: 2.001965}
   m_Center: {x: -0.25035262, y: -0.009299259, z: -0.02453494}
+--- !u!114 &1550717138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550717133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14e18aa7a327e3146ac0a0b2f43a94ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiOffset: {x: 0, y: 0.5, z: 1}
+  buildingUI: {fileID: 1741563838}
+  header: {fileID: 1232076422}
+  body: {fileID: 1602933021}
 --- !u!1 &1550869816 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2538252195932746528, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
@@ -5569,7 +6546,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1550869816}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -5620,7 +6609,7 @@ MonoBehaviour:
   <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 1550869825}
   allowedManipulations: 7
   allowedInteractionTypes: 1
   rigidbodyMovementType: 0
@@ -5663,6 +6652,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!4 &1550869825 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8685134436950360974, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+  m_PrefabInstance: {fileID: 1550717132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1550869828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550869816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9830b58c6292d464cad73b2da54e1508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUX: {fileID: 1550717138}
 --- !u!1 &1588209490 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5609308756044941887, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
@@ -5821,7 +6828,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1588209490}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -5872,7 +6891,7 @@ MonoBehaviour:
   <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 1588209499}
   allowedManipulations: 7
   allowedInteractionTypes: 1
   rigidbodyMovementType: 0
@@ -5915,6 +6934,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!4 &1588209499 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7200784536549000603, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+  m_PrefabInstance: {fileID: 1550717132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1588209502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588209490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9830b58c6292d464cad73b2da54e1508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUX: {fileID: 1550717138}
+--- !u!114 &1602933021 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6930810734943986774, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+  m_PrefabInstance: {fileID: 198680968}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1741563838 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6930810733556124559, guid: cca6164bb2744884a92a100266f5f3aa, type: 3}
+  m_PrefabInstance: {fileID: 198680968}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1808306920 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6044257058256604125, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
@@ -6073,7 +7126,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1808306920}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -6124,7 +7189,7 @@ MonoBehaviour:
   <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 1808306929}
   allowedManipulations: 7
   allowedInteractionTypes: 1
   rigidbodyMovementType: 0
@@ -6167,6 +7232,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!4 &1808306929 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8080736943758488901, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+  m_PrefabInstance: {fileID: 1550717132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1808306932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808306920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9830b58c6292d464cad73b2da54e1508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUX: {fileID: 1550717138}
 --- !u!1 &1962091006 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5810399674571786152, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
@@ -6325,7 +7408,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1962091006}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -6376,7 +7471,7 @@ MonoBehaviour:
   <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 1962091015}
   allowedManipulations: 7
   allowedInteractionTypes: 1
   rigidbodyMovementType: 0
@@ -6419,6 +7514,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!4 &1962091015 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -9204890651621982593, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+  m_PrefabInstance: {fileID: 1550717132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1962091018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962091006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9830b58c6292d464cad73b2da54e1508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUX: {fileID: 1550717138}
 --- !u!1 &1972154420 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1629866958612345935, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
@@ -6577,7 +7690,19 @@ MonoBehaviour:
     active: 0
     onEntered:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1550717138}
+          m_TargetAssemblyTypeName: MapUX, Assembly-CSharp
+          m_MethodName: OnBuildingSelect
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1972154420}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     onExited:
       m_PersistentCalls:
         m_Calls: []
@@ -6628,7 +7753,7 @@ MonoBehaviour:
   <OnDisabled>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  hostTransform: {fileID: 0}
+  hostTransform: {fileID: 1972154429}
   allowedManipulations: 7
   allowedInteractionTypes: 1
   rigidbodyMovementType: 0
@@ -6671,6 +7796,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
+--- !u!4 &1972154429 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4611167845532466281, guid: 80de67c452b69a14db69d8fca397d565, type: 3}
+  m_PrefabInstance: {fileID: 1550717132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1972154432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972154420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9830b58c6292d464cad73b2da54e1508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapUX: {fileID: 1550717138}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -6679,3 +7822,4 @@ SceneRoots:
   - {fileID: 592295687}
   - {fileID: 406554833}
   - {fileID: 1550717132}
+  - {fileID: 198680968}
